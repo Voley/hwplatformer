@@ -757,7 +757,6 @@ GameObject:
   - component: {fileID: 630204963}
   - component: {fileID: 630204962}
   - component: {fileID: 630204964}
-  - component: {fileID: 630204965}
   m_Layer: 12
   m_Name: Player
   m_TagString: Untagged
@@ -946,18 +945,6 @@ MonoBehaviour:
   _frictionAmount: 0.22
   _gravityScale: 1
   _fallGravityMultiplier: 3
---- !u!114 &630204965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630204958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de9d4bfc677782b498175c20f7649d3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &688123911
 GameObject:
   m_ObjectHideFlags: 0
@@ -8499,7 +8486,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 930828915}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 701095c6d6f96064286b02202077466a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ee3b85926435474493743540a74727a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1017121020
@@ -9251,14 +9238,6 @@ PrefabInstance:
     - target: {fileID: 2949075937107782573, guid: d0631b6f322c7fa46b977d1bf465e091, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5731009487424955773, guid: d0631b6f322c7fa46b977d1bf465e091, type: 3}
-      propertyPath: m_Size.x
-      value: 0.49581814
-      objectReference: {fileID: 0}
-    - target: {fileID: 5731009487424955773, guid: d0631b6f322c7fa46b977d1bf465e091, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.072277546
       objectReference: {fileID: 0}
     - target: {fileID: 8874669412209147493, guid: d0631b6f322c7fa46b977d1bf465e091, type: 3}
       propertyPath: m_Name
