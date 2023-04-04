@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private ColliderDetector _frontGroundDetector;
     [SerializeField] private ColliderDetector _topDetector;
     [SerializeField] private float _moveSpeed;
+
     private Collider2D _collider;
     private Rigidbody2D _rigidBody;
     private Animator _animator;
