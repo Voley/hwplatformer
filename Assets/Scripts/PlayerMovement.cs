@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
-            if (_positionChecker.IsGrounded)
+            if (_positionChecker.IsGrounded && Mathf.Abs(_rigidBody.velocity.y) < 0.02)
             {
                 Jump();
             }
@@ -100,7 +100,6 @@ public class PlayerMovement : MonoBehaviour
         {
             _animator.SetBool(fallingKey, false);
         }
-        
     }
 
     private void Jump()
